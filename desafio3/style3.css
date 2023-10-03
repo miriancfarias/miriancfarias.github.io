@@ -1,0 +1,147 @@
+html, body {
+    margin: 0;
+    width: 100%;
+       
+  }
+
+  header{
+    background-color: rgb(185, 238, 202);
+    height: 60px;
+    width: 100%;
+    
+    z-index: 10;
+  }
+#logo{
+    width: 50px;
+    position: absolute;
+    top: 0%;
+    
+}
+#menu {
+    
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    padding: 0%;
+}
+
+li{
+ float: left; 
+ padding: 10px 20px 5px 10px;  
+ font-size: 20pt;
+}
+  #imagem_fundo {background: url(zeyn-afuang-9xp0AWvlGC4-unsplash.jpg);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+    margin: 0;
+
+    
+  }
+  
+  #titulo {
+    color: white;
+    padding-top: 10%;
+    padding-bottom: 10%;
+   
+    font-size: 48pt;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  #subtitulo {
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+padding-bottom: 10%;
+    font-size: 36pt;
+    margin: 0;
+    
+  }
+  #botao{
+    color: white;
+    border: 3px white solid;
+    padding: 20px;
+    margin: 0;
+    background-color: rgb(63, 83, 77);
+    font-size: 20px;
+    
+    
+  }
+
+#introducao
+{background-color: rgb(133, 170, 158);
+  text-align: center;
+  
+  font-size: 20pt;
+  width: 100%;
+  padding-top: 5%;
+}
+
+#objgeral
+{background-color: rgb(62, 85, 78);
+  text-align: center;
+  padding: 20px;
+  font-size: 20pt;
+  width: 100%;
+  color: white;
+  
+}
+.foto{
+  width: 100%;
+  background-size:cover;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  padding-top: 20%;
+  
+}
+.coluna1{
+  float: left;
+  padding:0 5%;
+  position: relative;
+  width: 39%;
+  font-size: 20pt;
+  text-align:justify;
+  background-color: white;
+  margin: auto;
+  vertical-align: middle
+}
+
+
+
+
+
+#rodape{
+  background-color: rgb(185, 238, 202);
+  padding: 10px;
+  float: left;
+  background-size: cover;
+  width: 100%;
+}
+li:hover {
+  background-color: azure;  
+}
+
+@media all and (max-width: 768px) {
+
+
+
+
+.coluna1 {display: block;
+width: 100%;
+padding: 0;
+margin:10px;
+float:none} 
+#titulo {
+  font-size: 30px;}
+  #subtitulo {
+    font-size: 20px;}
+    iframe {width: 100%;}
+    #objgeral {width: 100%;} 
+    li{
+      
+      font-size: 15pt;}
+}

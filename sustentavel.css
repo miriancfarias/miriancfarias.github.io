@@ -1,0 +1,20 @@
+#titulo {background-color: antiquewhite;
+    border: 3px black solid;
+    padding 10px
+    margin: 20px;
+    text-align: center;
+
+
+}
+#subtitulo {background-color: rgba(255, 0, 0, 0.858);
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+.corpo {
+    background-color: rgb(204, 165, 165);
+    padding: 10px;
+    margin: 10px
+}
